@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+
+#root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+  color: #663A74;
+}
+
+body {
+  color: #663A74;
+  background: #ECEFF1;
+}
+
+.main {
+  padding: 2rem 10rem;
+}
