@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function NavTabs() {
+function Header() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="home"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -51,4 +51,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default Header;
