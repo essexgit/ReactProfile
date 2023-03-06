@@ -6,7 +6,7 @@ function Header() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="home"
+          to="/home"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -17,7 +17,7 @@ function Header() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="experience"
+          to="/experience"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -27,7 +27,7 @@ function Header() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="projectgallery"
+          to="/projectgallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -37,7 +37,7 @@ function Header() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="contact"
+          to="/contact"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
