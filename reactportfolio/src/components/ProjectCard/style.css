@@ -7,39 +7,39 @@ img {
 .project {
   background: #fff;
   border-radius: 2px;
-  /* height: 325px; */
   margin: 1rem;
   position: relative;
-  width: 350px;
+  width: 400px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  text-align: left;
-  overflow-wrap: break-word;
-  border: 1px black solid;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .project > .img-container {
-
   overflow: hidden;
-  text-align: center;
-  background: #6CADDC;
-}
-
-.project > .img-container > img {
-  width: 35dvw
 }
 
 .project > .content {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
+  color: #663A74;
 }
 
 .project > .content > ul {
   list-style-type: none;
+  color: #663A74;
 }
 
 .project > .content > ul > li {
+  text-align: left;
   margin-top: 18px;
+  color: #663A74;
+}
+
+.card--link {
+  box-shadow: 1px 4px 4px #555;
 }
 
 #img1 {

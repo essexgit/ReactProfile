@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
     return (
@@ -13,10 +14,10 @@ function ProjectCard(props) {
                         <strong>Title:</strong> {props.Title}
                     </li>
                     <li>
-                        <strong>Github Repository:</strong> {props.Github}
+                        <strong><Link className="card--link" to={props.Github}>Github Repository</Link> </strong>
                     </li>
                     <li>
-                        <strong>WebPage:</strong> {props.Deployment}
+                        <strong><Link className="card--link" to={props.Deployment}>Webpage</Link></strong>
                     </li>
                 </ul>
             </div>
