@@ -2,7 +2,7 @@
   background-color: #ECEFF1;
   margin: 0;
   padding-inline-start: 0;
-  padding: 1rem 7rem 1rem 7rem;
+  padding: 1rem 2rem 1rem 2rem;
   list-style: none;
   display: flex;
   font-size: large;
@@ -17,7 +17,7 @@
   background-color: #ABA4DB;
   border-radius: 10px;
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   color: #663A74;
 }
 
@@ -25,8 +25,6 @@
   text-decoration: none;
   background-color: #ABA4EF;
   border-radius: 10px;
-  padding: 0.5rem;
-  margin: 1rem;
   box-shadow: 1px 1px 1px #663A74;
 }
 
@@ -34,8 +32,6 @@
   text-decoration: none;
   background-color: #ABA4EF;
   border-radius: 10px;
-  padding: 0.5rem;
-  margin: 1rem;
   box-shadow: 2px 2px 2px #663A74;
 }
 
@@ -43,8 +39,6 @@
   text-decoration: none;
   background-color: #ABA4EF;
   border-radius: 10px;
-  padding: 0.5rem;
-  margin: 1rem;
   box-shadow: 2px 2px 2px #663A74;
 }
 

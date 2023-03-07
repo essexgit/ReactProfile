@@ -23,6 +23,28 @@ body {
   background: #ECEFF1;
 }
 
-.main {
-  padding: 2rem 10rem;
+.home--layout {
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3, 50%);
+  grid-template-areas:
+    "top"
+    "middle"
+    "bottom";
+}
+
+.page--title {
+  padding: 1rem 4rem;
+  grid-area: top;
+  position: absolute;
+  z-index: 10;
+  width: min(800px, max(300px, 100%));
+}
+
+.page--portrait {
+  padding: 1rem 4rem;
+  grid-area: middle;
+  position: absolute;
+  z-index: 5;
+  width: min(800px, max(300px, 100%));
 }
